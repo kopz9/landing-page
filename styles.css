@@ -28,6 +28,7 @@ ul{
 }
 
 main section{
+  height: 30vh;
   padding-top: 0 100px;
   padding: 0 100px;
   display: flex;
@@ -43,6 +44,7 @@ main section h1{
 
 main section p{
   font-size: 18px;
+  
 }
 
 main section .button {
@@ -70,6 +72,127 @@ main section .img_pepe{
   padding-right: 100px;  
 }
 
+.second{  
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;  
+  padding-top: 100px;
+  height: 10px;
+  background-color: white;
+}
+
+.second h1{
+  padding-top: 10px;
+  color: #1F2937;
+  background-color: white;
+}
+
+.cover {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 80px;
+  background-color: white;
+}
+
+.images{
+  height: 400px;
+  background-color: white;
+}
+
+.images p{
+  color: #1F2937;
+  background-color: white;
+}
+
+.cover img{
+  height: 100px;  
+  background-color: white;
+}
+
+.quote{
+  background-color: #797c81;
+  height: 50vh;  
+  margin: 0;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote blockquote{
+  background-color: #797c81;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 36px;
+}
+
+.quote p{
+  background-color: #797c81;
+  text-align: end;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.call {
+  padding-top: 100px;
+  height: 40vh;
+  background-color: white;
+  display: block;
+  align-items: center;
+}
+
+.call .container{
+  background-color: #3882F6;
+}
+
+.container{  
+  border-radius: 10px;  
+  justify-content: end;  
+}
 
 
+.call .lilbox{  
+  background-color: #3882F6;
+  border-radius: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;  
+  margin: 10px;  
+}
+
+.call p{
+  background-color: #3882F6;
+}
+
+.call h2{
+  background-color: #3882F6;
+}
+
+.call button {
+  background-color: #3882F6;
+  cursor: pointer;
+  margin-top: -40px;
+  margin-right: 100px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border-color: white;
+  padding: 8px 40px;
+  border-radius: 10px;
+  float: right;  
+}
+
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+}
 
